@@ -14,6 +14,6 @@ mujoco = '2.0.2.13'
 tensorboard = '1.15.0'
 
 ### TODOs:
-- [] Include graphs from experimental results
-- [] Implement PyBullet environments
+- [ ] Include graphs from experimental results
+- [ ] Implement PyBullet environments
 - [X] testing tick box
