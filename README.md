@@ -9,4 +9,9 @@ python ppo_ipg.py --env=Ant-v3 --epochs=1000 --inter_nu=0.2 --beta=on_policy_sam
 
 
 ### Packages versions:
-python = '3.7.4'  pytorch = '1.7.0+cpu'  numpy = '1.20.2'  gym = '0.17.3'  mujoco = '2.0.2.13'  tensorboard = '1.15.0'
+python = '3.7.4'  
+pytorch = '1.7.0+cpu'  
+numpy = '1.20.2'  
+gym = '0.17.3'  
+mujoco = '2.0.2.13'  
+tensorboard = '1.15.0'
