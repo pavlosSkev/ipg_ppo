@@ -1,1 +1,1 @@
-# ipg
+# Interpolated Policy Gradients using PPO
