@@ -1,6 +1,6 @@
 # Interpolated Policy Gradients using PPO
 
-The following project is a simple reproduction of the [Interpolated Policy Gradient: Merging On-Policy and Off-Policy Gradient Estimation for Deep Reinforcement Learning](https://arxiv.org/abs/1706.00387 "Named link title") of Gu, Shixiang and Lillicrap et al., using PPO rather than TRPO. The code is built upon the OpenAI Spinning Up PPO code.
+The following project is a reproduction of the [Interpolated Policy Gradient: Merging On-Policy and Off-Policy Gradient Estimation for Deep Reinforcement Learning](https://arxiv.org/abs/1706.00387 "Named link title") of Gu, Shixiang and Lillicrap et al., using PPO rather than TRPO. The code is built upon the OpenAI Spinning Up PPO code.
 
 ### Information:
 The project interpolates between on-policy and off-policy data when updating the main policy. In addition to PPO, it includes a Q-function that is updated in the same manner 
