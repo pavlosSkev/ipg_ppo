@@ -25,4 +25,5 @@ tensorboard = '1.15.0'
 - [ ] Include graphs from experimental results
 - [ ] Implement PyBullet environments
 - [ ] Fix Taylor Expansion control variate
+- [ ] Include TD3 methods for possible improvement
 - [X] testing tick box
