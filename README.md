@@ -11,7 +11,7 @@ Information about the parameters can be found in the [ppo_ipg.py](https://github
 
 
 ### Example of experiment:
-python ppo_ipg.py --env=Ant-v3 --epochs=1000 --inter_nu=0.2 --beta=on_policy_sampling
+`python ppo_ipg.py --env=Ant-v3 --epochs=1000 --inter_nu=0.2 --beta=on_policy_sampling`
 
 ### Versions:
 python = '3.7.4'  
