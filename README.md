@@ -21,7 +21,7 @@ gym = '0.17.3'
 mujoco = '2.0.2.13'  
 tensorboard = '1.15.0'
 
-### TODOs:
+### Future Work:
 - [ ] Include graphs from experimental results
 - [ ] Implement PyBullet environments
 - [ ] Fix Taylor Expansion control variate
