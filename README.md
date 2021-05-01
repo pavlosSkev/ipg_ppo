@@ -7,7 +7,7 @@ The project interpolates between on-policy and off-policy data when updating the
 as the DDPG algorithm.
 I had trouble implementing the taylor expansion control variate with pytorch, therefore the control variate used is the "Reparameterized Critic Control Variate" from appendix
 11.1 of the IPG paper.  
-Information about the parameters can be found in the [ppo_ipg.py](ipg_ppo/ppo_ipg.py) file.
+Information about the parameters can be found in the [ppo_ipg.py](https://github.com/pavlosSkev/ipg_ppo/blob/main/ppo_ipg.py) file.
 
 
 ### Example of experiment:
