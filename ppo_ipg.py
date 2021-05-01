@@ -357,10 +357,9 @@ if __name__ == '__main__':
     parser.add_argument('--gamma', type=float, default=0.99)
     parser.add_argument('--seed', '-s', type=int, default=0)
     parser.add_argument('--cpu', type=int, default=1)
-    parser.add_argument('--steps', type=int, default=None)  # set 50 for robotic tasks, 4000 for locomotion
-    parser.add_argument('--epochs', type=int, default=250)  # 50 default, 200 works for robotic amnipulation
-    parser.add_argument('--num_episodes', type=int,
-                        default=4)  # set 50 for robotic tasks, 1 for locomotion, set to 4 if use default max timesteps for locomition
+    parser.add_argument('--steps', type=int, default=None)  
+    parser.add_argument('--epochs', type=int, default=250) 
+    parser.add_argument('--num_episodes', type=int, default=4)  
     parser.add_argument('--num_cycles', type=int, default=1)
     parser.add_argument('--use_cv', default=False)
     parser.add_argument('--cv_type', default='reparam_critic_cv', help='determines which cv to use. Possible vals: '
