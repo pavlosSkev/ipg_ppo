@@ -4,7 +4,11 @@ The following project is a simple reproduction of the Interpolated Policy Gradie
 
 ### Packages versions:
 python
+
 pytorch = '1.7.0+cpu'
+
 numpy = '1.20.2'
+
 gym = '0.17.3'
+
 mujoco = '2.0.2.13'
