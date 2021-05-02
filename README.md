@@ -5,9 +5,9 @@ The following project is a reproduction of the [Interpolated Policy Gradient: Me
 ### Information:
 The project interpolates between on-policy and off-policy data when updating the main policy. In addition to PPO, it includes a Q-function that is updated in the same manner 
 as the Deep Deterministic Policy Gradient (DDPG) algorithm.
-I had trouble implementing the taylor expansion control variate with pytorch, therefore the control variate used is the "Reparameterized Critic Control Variate" from appendix
-11.1 of the IPG paper.  
-Information about the parameters can be found in the [ppo_ipg.py](https://github.com/pavlosSkev/ipg_ppo/blob/main/ppo_ipg.py) file.
+I had trouble implementing the taylor expansion control variate with pytorch, therefore the control variate implemented is the "Reparameterized Critic Control Variate" from appendix 11.1 of the IPG paper.  
+Information about the parameters can be found in the [ppo_ipg.py](https://github.com/pavlosSkev/ipg_ppo/blob/main/ppo_ipg.py) file.  
+Original code of IPG by the authors, implemented in RLLAB framework with tensorflow can be found [here](https://github.com/shaneshixiang/rllabplusplus).
 
 
 ### Example of experiment:
