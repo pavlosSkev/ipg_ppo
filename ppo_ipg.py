@@ -130,8 +130,9 @@ def ppo(env_fn, actor_critic=core.MLPActorCritic, q_func=core.QFunction, ac_kwar
         q_value_real = ac.qf(obs, _preproc_input(act))  # correct
         with torch.no_grad():
             # TODO: policy target?
-            act_next, _, _, _, _ = ac.step(obs_next)
-            q_next_value = ac_targ.qf(obs_next, _preproc_input(act_next))
+#             act_next, _, _, _, _ = ac.step(obs_next) #this samples an action from a distribution
+            act_next = ac.pi.mu_net(obs_next) #this gets the mean of the distribution, corresponding to a deterministic action
+            q_next_value = ac_targ.qf(obs_next, act_next)
             q_next_value = q_next_value.detach()  # detach tensor from graph
             # Bellman backup for Q function
             q_value_target = r + gamma * (1 - dones) * q_next_value
